@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Travel Plan//ICS Example//DE
+X-WR-CALNAME:✈️ Reise April 2026
+
+BEGIN:VEVENT
+UID:flight-outbound@example.com
+DTSTAMP:20260327T150000Z
+DTSTART:20260406T083000
+DTEND:20260406T133000
+SUMMARY:✈️ Hinflug LH1234
+DESCRIPTION:Flug LH1234 - Bitte unbedingt 2 Stunden vorher am Schalter einfinden.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:transfer-outbound@example.com
+DTSTAMP:20260327T150000Z
+DTSTART:20260406T140000
+DTEND:20260406T150000
+SUMMARY:🚐 Transfer
+DESCRIPTION:Transfer zum Hotel - Der Fahrer trägt ein großes unübersehbares Schild. Nutzen Sie keine anderen Tranferangebote!
+END:VEVENT
+
+BEGIN:VEVENT
+UID:hotel-stay@example.com
+DTSTAMP:20260327T150000Z
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260411
+SUMMARY:🏨 Hotelaufenthalt
+DESCRIPTION:Hotel Aufenthalt - 1x Doppelzimmer mit Halbpension - Wir wünschen einen schönen Aufenthalt :-)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:car-rental@example.com
+DTSTAMP:20260327T150000Z
+DTSTART:20260408T100000
+DTEND:20260409T100000
+SUMMARY:🚗 Autoanmietung - Abholung und Rückgabe an der Hotelrezeption. Gute Fahrt!
+DESCRIPTION:Mietwagen
+END:VEVENT
+
+BEGIN:VEVENT
+UID:museum-trip@example.com
+DTSTAMP:20260327T150000Z
+DTSTART:20260409T150000
+DTEND:20260409T170000
+SUMMARY:🏛️ Ausflug zum Museum National
+DESCRIPTION:Museumsbesuch - Nutzen Sie den in den Reiseunterlagen enthaltenen Voucher als Eintrittskarte.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:checkout@example.com
+DTSTAMP:20260327T150000Z
+DTSTART:20260410T100000
+DTEND:20260410T103000
+SUMMARY:🧳 Auschecken
+DESCRIPTION:Check-out im Hotel
+END:VEVENT
+
+BEGIN:VEVENT
+UID:transfer-return@example.com
+DTSTAMP:20260327T150000Z
+DTSTART:20260410T130000
+DTEND:20260410T140000
+SUMMARY:🚐 Transfer
+DESCRIPTION:Transfer zum Flughafen - Sie werden direkt vor dem Hotel abgeholt.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:flight-return@example.com
+DTSTAMP:20260327T150000Z
+DTSTART:20260410T163000
+DTEND:20260410T213000
+SUMMARY:✈️ Rückflug
+DESCRIPTION:Rückflug - Bitte unbedingt 2 Stunden vorher am Schalter einfinden.
+END:VEVENT
+
+END:VCALENDAR
